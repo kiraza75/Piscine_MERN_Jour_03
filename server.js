@@ -2,6 +2,7 @@
 
 const url = 'mongodb://localhost:27042/UsersDB';*/
 var express = require('express');
+var Users  = require("./models/users");
 var app = express();
 
 
